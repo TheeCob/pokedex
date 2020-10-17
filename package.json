@@ -1,0 +1,15 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "Pokedex web application",
+  "main": "controller.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jacob Johnson",
+  "license": "MIT",
+  "dependencies": {
+    "pg": "^8.4.1",
+    "restify": "^8.5.1"
+  }
+}
