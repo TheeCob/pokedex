@@ -10,11 +10,26 @@
 </head>
 
 <body>
+    
+    <div class="header">
+        <h1>Pokedex</h1> 
+    </div>
 
-    <h1>Pokedex</h1> 
-    <!-- <img src="/view/images/Bellsprout.jpg"></img> -->
-	<ul class="pokedex" id="pokedex">
-	<script src="/view/js/pokedex.js"></script>
+    <div class="pokemon-details" id="pokemon-details"></div>
+    <div class="pokedex-container" id="pokedex-container">
+        <div class="pokedex-toolbar">
+            <input class="search" id="search"  type="text"  onkeyup="pokedexSearch()" placeholder="Search...">
+            <!-- <button class="filter">Type</button> -->
+        </div>
+        
+        <div class="pokedex-grid" id="pokedex-grid"></div>
+    </div>
+
+    <div class="footer">
+        <h1>About</h1> 
+    </div>
+
+    <script src="/view/js/pokedex.js"></script>
 
 </body>
 

@@ -18,7 +18,7 @@ http.get('/', restify.plugins.serveStatic({
     directory: 'view/html/index.html',
 }));
 
-// Server HTML Files (TODO have not tested yet)
+// Serve HTML Files (TODO have not tested yet)
 http.get('/view/html/*', restify.plugins.serveStatic({
     appendRequestPath: false,
     directory: 'view/html'
